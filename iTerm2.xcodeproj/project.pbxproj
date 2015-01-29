@@ -1798,6 +1798,9 @@
 		A6E9ACCC1A19956D008B0B6F /* NSWindow+PSM.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9ACC91A19956D008B0B6F /* NSWindow+PSM.m */; };
 		A6E9ACCD1A19956D008B0B6F /* NSWindow+PSM.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9ACC91A19956D008B0B6F /* NSWindow+PSM.m */; };
 		A6E9ACCE1A19956D008B0B6F /* NSWindow+PSM.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9ACC91A19956D008B0B6F /* NSWindow+PSM.m */; };
+		A71BC1411A7A2EB40030B0FD /* ToolMiniBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A71BC13F1A7A2EB40030B0FD /* ToolMiniBrowser.h */; };
+		A71BC1421A7A2EB40030B0FD /* ToolMiniBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BC1401A7A2EB40030B0FD /* ToolMiniBrowser.m */; };
+		A71BC1441A7A32650030B0FD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71BC1431A7A32650030B0FD /* WebKit.framework */; };
 		D3CE2D4E1A00936F0098ED99 /* PSMDarkTabStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CE2D4C1A00936F0098ED99 /* PSMDarkTabStyle.h */; };
 		D3CE2D4F1A00936F0098ED99 /* PSMDarkTabStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE2D4D1A00936F0098ED99 /* PSMDarkTabStyle.m */; };
 		DDF0FD65062916F70080EF74 /* iTermApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF0FD63062916F70080EF74 /* iTermApplication.h */; };
@@ -2577,6 +2580,9 @@
 		A6E8BA0319DBCB01005C79E8 /* iTermIntegerNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermIntegerNumberFormatter.m; sourceTree = "<group>"; };
 		A6E9ACC81A19956D008B0B6F /* NSWindow+PSM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+PSM.h"; sourceTree = "<group>"; };
 		A6E9ACC91A19956D008B0B6F /* NSWindow+PSM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+PSM.m"; sourceTree = "<group>"; };
+		A71BC13F1A7A2EB40030B0FD /* ToolMiniBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMiniBrowser.h; sourceTree = "<group>"; };
+		A71BC1401A7A2EB40030B0FD /* ToolMiniBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMiniBrowser.m; sourceTree = "<group>"; };
+		A71BC1431A7A32650030B0FD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D3CE2D4C1A00936F0098ED99 /* PSMDarkTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMDarkTabStyle.h; sourceTree = "<group>"; };
 		D3CE2D4D1A00936F0098ED99 /* PSMDarkTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMDarkTabStyle.m; sourceTree = "<group>"; };
 		DD02572609CB9398008F320C /* PSMYosemiteTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMYosemiteTabStyle.h; sourceTree = "<group>"; };
@@ -2697,6 +2703,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71BC1441A7A32650030B0FD /* WebKit.framework in Frameworks */,
 				A624231F19CF6F2000182C08 /* NMSSH.framework in Frameworks */,
 				1DFA7C9E1923F77100DF1410 /* Security.framework in Frameworks */,
 				1DFA7C931923E8AC00DF1410 /* libSSKeychain.a in Frameworks */,
@@ -2981,6 +2988,7 @@
 				1D0B613A14A7C76500C57C33 /* TmuxWindowsTable.h */,
 				1D085FA016F138A000B7FCE9 /* ToastWindowController.h */,
 				1DE8DC871415513A00F83147 /* ToolbeltView.h */,
+				A71BC13F1A7A2EB40030B0FD /* ToolMiniBrowser.h */,
 				A6A5991B1887C63700CB4209 /* ToolCommandHistoryView.h */,
 				1D19C71214171F1D00617E08 /* ToolJobs.h */,
 				1D67AAA714284BF300D5DA4E /* ToolNotes.h */,
@@ -3416,6 +3424,7 @@
 			isa = PBXGroup;
 			children = (
 				1DE8DC881415513A00F83147 /* ToolbeltView.m */,
+				A71BC1401A7A2EB40030B0FD /* ToolMiniBrowser.m */,
 				1DE8DF351415799700F83147 /* ToolWrapper.m */,
 				1D19C71314171F1D00617E08 /* ToolJobs.m */,
 				1D67AAA814284BF300D5DA4E /* ToolNotes.m */,
@@ -3502,6 +3511,7 @@
 		1DD39AD5180B8118004E56D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A71BC1431A7A32650030B0FD /* WebKit.framework */,
 				A624231819CF6DE000182C08 /* NMSSH.framework */,
 				A624231319CF6B1600182C08 /* Growl.framework */,
 				A624230F19CF6B0C00182C08 /* Sparkle.framework */,
@@ -4492,6 +4502,7 @@
 				1DB83957192E9A610037E548 /* ToolCapturedOutputView.h in Headers */,
 				A69B45A419731AC500F5444D /* iTermOpenQuicklyWindow.h in Headers */,
 				A628C7A818764AA4009B0818 /* NSDictionary+iTerm.h in Headers */,
+				A71BC1411A7A2EB40030B0FD /* ToolMiniBrowser.h in Headers */,
 				1DB9D8F2183FE9EF0029F0B5 /* HotkeyWindowController.h in Headers */,
 				A6A2699C190319A000437DA9 /* ProfilesAdvancedPreferencesViewController.h in Headers */,
 				A073973E14C768E400786414 /* ColorsMenuItemView.h in Headers */,
@@ -5758,6 +5769,7 @@
 				A69B45911973193100F5444D /* iTermOpenQuicklyTableView.m in Sources */,
 				1DCA5ED013EE507800B7725E /* WindowArrangements.m in Sources */,
 				1D2560AB13EE60E4006B35CD /* ArrangementPreviewView.m in Sources */,
+				A71BC1421A7A2EB40030B0FD /* ToolMiniBrowser.m in Sources */,
 				1DF8AF5913FD781700C8A435 /* SplitPanel.m in Sources */,
 				A663012C19D0864C004AF81C /* SCEvent.m in Sources */,
 				1D29732814082676004C5DBE /* MovePaneController.m in Sources */,
