@@ -1801,6 +1801,8 @@
 		A71BC1411A7A2EB40030B0FD /* ToolMiniBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A71BC13F1A7A2EB40030B0FD /* ToolMiniBrowser.h */; };
 		A71BC1421A7A2EB40030B0FD /* ToolMiniBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BC1401A7A2EB40030B0FD /* ToolMiniBrowser.m */; };
 		A71BC1441A7A32650030B0FD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71BC1431A7A32650030B0FD /* WebKit.framework */; };
+		A7459A5E1A7BFC44008D32FD /* ToolColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7459A5C1A7BFC44008D32FD /* ToolColorView.h */; };
+		A7459A5F1A7BFC44008D32FD /* ToolColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7459A5D1A7BFC44008D32FD /* ToolColorView.m */; };
 		D3CE2D4E1A00936F0098ED99 /* PSMDarkTabStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CE2D4C1A00936F0098ED99 /* PSMDarkTabStyle.h */; };
 		D3CE2D4F1A00936F0098ED99 /* PSMDarkTabStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE2D4D1A00936F0098ED99 /* PSMDarkTabStyle.m */; };
 		DDF0FD65062916F70080EF74 /* iTermApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF0FD63062916F70080EF74 /* iTermApplication.h */; };
@@ -2583,6 +2585,8 @@
 		A71BC13F1A7A2EB40030B0FD /* ToolMiniBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMiniBrowser.h; sourceTree = "<group>"; };
 		A71BC1401A7A2EB40030B0FD /* ToolMiniBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMiniBrowser.m; sourceTree = "<group>"; };
 		A71BC1431A7A32650030B0FD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A7459A5C1A7BFC44008D32FD /* ToolColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolColorView.h; sourceTree = "<group>"; };
+		A7459A5D1A7BFC44008D32FD /* ToolColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolColorView.m; sourceTree = "<group>"; };
 		D3CE2D4C1A00936F0098ED99 /* PSMDarkTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMDarkTabStyle.h; sourceTree = "<group>"; };
 		D3CE2D4D1A00936F0098ED99 /* PSMDarkTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMDarkTabStyle.m; sourceTree = "<group>"; };
 		DD02572609CB9398008F320C /* PSMYosemiteTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMYosemiteTabStyle.h; sourceTree = "<group>"; };
@@ -2989,6 +2993,7 @@
 				1D085FA016F138A000B7FCE9 /* ToastWindowController.h */,
 				1DE8DC871415513A00F83147 /* ToolbeltView.h */,
 				A71BC13F1A7A2EB40030B0FD /* ToolMiniBrowser.h */,
+				A7459A5C1A7BFC44008D32FD /* ToolColorView.h */,
 				A6A5991B1887C63700CB4209 /* ToolCommandHistoryView.h */,
 				1D19C71214171F1D00617E08 /* ToolJobs.h */,
 				1D67AAA714284BF300D5DA4E /* ToolNotes.h */,
@@ -3425,6 +3430,7 @@
 			children = (
 				1DE8DC881415513A00F83147 /* ToolbeltView.m */,
 				A71BC1401A7A2EB40030B0FD /* ToolMiniBrowser.m */,
+				A7459A5D1A7BFC44008D32FD /* ToolColorView.m */,
 				1DE8DF351415799700F83147 /* ToolWrapper.m */,
 				1D19C71314171F1D00617E08 /* ToolJobs.m */,
 				1D67AAA814284BF300D5DA4E /* ToolNotes.m */,
@@ -4370,6 +4376,7 @@
 				A63BA39518A9CB43002BE075 /* iTermSelection.h in Headers */,
 				A699BAE618C8394700D425A7 /* CVector.h in Headers */,
 				1D624BEE1386E34F00111319 /* GTMObjectSingleton.h in Headers */,
+				A7459A5E1A7BFC44008D32FD /* ToolColorView.h in Headers */,
 				1D624BF41386E39D00111319 /* GTMDebugSelectorValidation.h in Headers */,
 				A647E3B718C5884600450FA1 /* iTermObjectPool.h in Headers */,
 				A69B45951973198900F5444D /* iTermOpenQuicklyTableRowView.h in Headers */,
@@ -5668,6 +5675,7 @@
 				1D5FDDBD1208E93600C46BA3 /* PSMOverflowPopUpButton.m in Sources */,
 				A6CFDAD8185D53C2005DC94B /* AsyncHostLookupController.m in Sources */,
 				A682DE9C1915DB1F00BE8758 /* iTermFlippedView.m in Sources */,
+				A7459A5F1A7BFC44008D32FD /* ToolColorView.m in Sources */,
 				A69B45BE197CB78B00F5444D /* iTermDragHandleView.m in Sources */,
 				1D5FDDBE1208E93600C46BA3 /* PSMProgressIndicator.m in Sources */,
 				A6E7139D18F7B199008D94DD /* BulkCopyProfilePreferencesWindowController.m in Sources */,

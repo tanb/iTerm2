@@ -13,6 +13,7 @@
 #import "FutureMethods.h"
 #import "PseudoTerminal.h"  // TODO: Use delegacy
 #import "ToolMiniBrowser.h"
+#import "ToolColorView.h"
 
 NSString *kCapturedOutputToolName = @"Captured Output";
 NSString *kCommandHistoryToolName = @"Command History";
@@ -67,8 +68,8 @@ static NSString *kToolbeltPrefKey = @"ToolbeltTools";
     [ToolbeltView registerToolWithName:@"Notes" withClass:[ToolNotes class]];
     [ToolbeltView registerToolWithName:@"Paste History" withClass:[ToolPasteHistory class]];
     [ToolbeltView registerToolWithName:@"Profiles" withClass:[ToolProfiles class]];
-    [ToolbeltView registerToolWithName:@"Mini Browser(1)" withClass:[ToolMiniBrowser class]];
-    [ToolbeltView registerToolWithName:@"Mini Browser(2)" withClass:[ToolMiniBrowser class]];
+    [ToolbeltView registerToolWithName:@"Mini Browser" withClass:[ToolMiniBrowser class]];
+    [ToolbeltView registerToolWithName:@"Color" withClass:[ToolColorView class]];
 }
 
 + (NSArray *)defaultTools
